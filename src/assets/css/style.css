@@ -11845,7 +11845,7 @@ body .modal-backdrop {
   font-size: 40px;
   line-height: 1;
   color: #112958;
-  padding-right: 25px;
+  /* padding-right: 25px; */
   margin-bottom: 15px;
 }
 .rs-counter .counter-item .rs-count:before {

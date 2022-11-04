@@ -13,19 +13,19 @@ export class StatisticsIncrementorComponent implements OnInit {
 
   projectCountStop: any = setInterval(() => {
     this.projectCount++;
-    if (this.projectCount == 284) {
+    if (this.projectCount == 106) {
       clearInterval(this.projectCountStop);
     }
   }, 60)
   projectCountStop1: any = setInterval(() => {
     this.projectCount1++;
-    if (this.projectCount1 == 4523) {
+    if (this.projectCount1 == 30) {
       clearInterval(this.projectCountStop1);
     }
   }, 50)
   projectCountStop2: any = setInterval(() => {
     this.projectCount2++;
-    if (this.projectCount2 == 120) {
+    if (this.projectCount2 == 50) {
       clearInterval(this.projectCountStop2);
     }
   }, 80)
